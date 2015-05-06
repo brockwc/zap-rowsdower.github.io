@@ -10,3 +10,5 @@ github_username:  zap-rowsdower
 
 # Build settings
 markdown: redcarpet
+pygments: true
+timezone: America/New_York
