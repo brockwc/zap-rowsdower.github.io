@@ -6,22 +6,27 @@ h1, h2, h3, h4, h5, h6,
 
 h1, 
 .alpha {
+    font-family: 'PT Sans Narrow', sans-serif;
 }
 
 h2, 
 .beta {
+    font-family: 'PT Sans Narrow', sans-serif;
 }
 
 h3, 
 .gamma {
+    font-family: 'PT Sans Narrow', sans-serif;
 }
 
 h4, 
 .delta {
+    font-family: 'PT Sans', sans-serif;
 }
 
 h5, 
 .epsilon {
+    font-family: 'PT Sans', sans-serif;
 }
 
 h6, 
@@ -33,6 +38,7 @@ p {
 
 p,
 li {
+    font-family: 'PT Serif', serif;
 	color: $bodyColor;
 
 	&.punch {
