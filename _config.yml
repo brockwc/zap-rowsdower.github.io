@@ -10,7 +10,7 @@ github_username:  zap-rowsdower
 
 # Build settings
 markdown: redcarpet
-pygments: true
+highlighter: pygments
 timezone: America/New_York
 
 # Include supported plugins
