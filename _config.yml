@@ -1,5 +1,5 @@
 # Site settings
-title: Brock "Pan Blanco" Whitbread
+title: "Brock Whitbread"
 email: brock.whitbread@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
     A portfolio site for Brock "Pan Blanco" Whitbread
@@ -10,11 +10,11 @@ github_username:  zap-rowsdower
 
 # Build settings
 markdown: redcarpet
-highlighter: true
+pygments: true
 timezone: America/New_York
 
 # Include supported plugins
-gems:
+gems: 
 - jekyll-mentions
 - jemoji
 - jekyll-redirect-from
