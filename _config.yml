@@ -1,8 +1,8 @@
 # Site settings
-title: Brock "Pan Blanco"
+title: Brock "Pan Blanco" Whitbread
 email: brock.whitbread@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-    A portfolio site for Brock "Pan Blanco"
+    A portfolio site for Brock "Pan Blanco" Whitbread
 baseurl: "/panblanco/" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: zapRowsdowr
