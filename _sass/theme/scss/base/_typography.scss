@@ -1,3 +1,11 @@
+//----------------------------------------------------------------
+//  Titles
+//----------------------------------------------------------------
+* {
+    @extend %aa;
+    font-weight: normal;
+}
+
 h1, h2, h3, h4, h5, h6,
 .alpha, .beta, .gamma, .delta, .epsilon, .zeta {
 	color: $titleColor;
@@ -7,16 +15,19 @@ h1, h2, h3, h4, h5, h6,
 h1, 
 .alpha {
     font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 50px;
 }
 
 h2, 
 .beta {
     font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 40px;
 }
 
 h3, 
 .gamma {
     font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 30px;
 }
 
 h4, 
@@ -40,6 +51,7 @@ p,
 li {
     font-family: 'PT Serif', serif;
 	color: $bodyColor;
+    font-size: 16px;
 
 	&.punch {
 
