@@ -3,12 +3,18 @@ layout: default
 title: Home
 ---
 
-<div class="home">
+<div class="home container">
   <div class="row">
-    <div class="columns xsmall-12">
-      <h1 class="page-heading">Posts</h1>
+    <div class="six columns offset-by-three">
+      <h2 class="text-center">Stuff I've Worked on</h2>
 
-      <ul class="post-list">
+      <ul class="no-style">
+        <li><a href="http://www.getmerchapp.com" target="_blank">Merch</a></li>
+        <li><a href="http://www.elevatedplay.com">Elevated Play</a></li>
+        <li><a href="http://www.scalar.ca">Scalar Decisions, Inc.</a></li>
+      </ul>
+
+      <!-- <ul class="post-list">
         {% for post in site.posts %}
           <li>
             <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
@@ -18,9 +24,7 @@ title: Home
             </h2>
           </li>
         {% endfor %}
-      </ul>
-
-      <p>subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+      </ul> -->
     </div>
   </div>
 </div>
