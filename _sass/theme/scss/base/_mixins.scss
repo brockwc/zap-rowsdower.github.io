@@ -18,7 +18,7 @@
 //----------------------------------------------------------------
 //	Font Family
 //----------------------------------------------------------------
-//  NOTE: May need to be edited, depending on what formats are 
+//  NOTE: May need to be edited, depending on what formats are
 //  provided by the foundry that you are using.
 //
 //  Written as: @include font(Open Sans, open-sans);
@@ -26,19 +26,19 @@
 
 	@font-face {
 		font-family: $fontName;
-		src: url("../fonts/" + $fontLongname + "/" + $fontLongname + ".eot");
-		src: url("../fonts/" + $fontLongname + "/" + $fontLongname + ".eot?#iefix") format("embedded-opentype"),
-			 url("../fonts/" + $fontLongname + "/" + $fontLongname + ".woff") format("woff"),
-			 url("../fonts/" + $fontLongname + "/" + $fontLongname + ".ttf") format("truetype"),
-			 url("../fonts/" + $fontLongname + "/" + $fontLongname + ".svg#" + $fontName + "") format("svg");
-	}	
+		src: url("../_sass/theme/fonts/" + $fontLongname + "/" + $fontLongname + ".eot");
+		src: url("../_sass/theme/fonts/" + $fontLongname + "/" + $fontLongname + ".eot?#iefix") format("embedded-opentype"),
+			 url("../_sass/theme/fonts/" + $fontLongname + "/" + $fontLongname + ".woff") format("woff"),
+			 url("../_sass/theme/fonts/" + $fontLongname + "/" + $fontLongname + ".ttf") format("truetype"),
+			 url("../_sass/theme/fonts/" + $fontLongname + "/" + $fontLongname + ".svg#" + $fontName + "") format("svg");
+	}
 }
 
 
 //----------------------------------------------------------------
 //	Border Radius
 //----------------------------------------------------------------
-//  NOTE: only use for defined widths, not percentages. 
+//  NOTE: only use for defined widths, not percentages.
 //  Use  @include pre(border-radius, 50%); for percentages.
 //
 //  Written as: @include radius(5); OR @include radius(5, 10); || Four values max.
@@ -55,7 +55,7 @@
 		@if $i < $max {
 			$pxValues: #{$pxValues + " "};
 		}
-	} 
+	}
 
 	@for $i from 1 through $max {
 		$value: prop-count(nth($values, $i));
@@ -103,7 +103,7 @@
 		@if $i < $max {
 			$pxValues: #{$pxValues + " "};
 		}
-	} 
+	}
 
 	@for $i from 1 through $max {
 		$value: prop-count(nth($values, $i));
@@ -115,12 +115,12 @@
 	}
 
 	@if $pxSupport == "true" {
-    	#{$styleProperty}: $pxValues; 
-		#{$styleProperty}: $remValues; 
+    	#{$styleProperty}: $pxValues;
+		#{$styleProperty}: $remValues;
     }
 
     @else {
-		#{$styleProperty}: $remValues; 
+		#{$styleProperty}: $remValues;
     }
 }
 
@@ -132,7 +132,7 @@
 @mixin border($width, $style, $color, $side:"false") {
 
 	@if $pxSupport == "true" {
-    	
+
     	@if $side == "false" {
 			border: ($width)+px $style $color;
 			border: ($width / 10)+rem $style $color;
@@ -145,7 +145,7 @@
     }
 
     @else {
-		
+
 		@if $side == "false" {
 			border: ($width / 10)+rem $style $color;
 		}
@@ -172,15 +172,15 @@
 //----------------------------------------------------------------
 @mixin sq($value) {
 	@if $pxSupport == "true" {
-    	width: ($value)+px; 
+    	width: ($value)+px;
 		width: ($value / 10)+rem;
-		height: ($value)+px; 
-		height: ($value / 10)+rem; 
+		height: ($value)+px;
+		height: ($value / 10)+rem;
     }
 
     @else {
 		width: ($value / 10)+rem;
-		height: ($value / 10)+rem; 
+		height: ($value / 10)+rem;
     }
 }
 
