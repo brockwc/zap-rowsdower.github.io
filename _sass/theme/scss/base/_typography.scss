@@ -1,3 +1,5 @@
+@include font("caslongrad", caslongrad);
+
 //----------------------------------------------------------------
 //  Titles
 //----------------------------------------------------------------
@@ -12,35 +14,35 @@ h1, h2, h3, h4, h5, h6,
 	font-weight: normal;
 }
 
-h1, 
+h1,
 .alpha {
-    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: "caslongrad", serif;
     font-size: 50px;
 }
 
-h2, 
+h2,
 .beta {
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 40px;
 }
 
-h3, 
+h3,
 .gamma {
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 30px;
 }
 
-h4, 
+h4,
 .delta {
     font-family: 'PT Sans', sans-serif;
 }
 
-h5, 
+h5,
 .epsilon {
     font-family: 'PT Sans', sans-serif;
 }
 
-h6, 
+h6,
 .zeta {
 }
 
@@ -60,7 +62,7 @@ li {
 
 ol,
 ul {
-    
+
     li {
 
     }
