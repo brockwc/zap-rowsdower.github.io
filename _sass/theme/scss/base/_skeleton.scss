@@ -158,7 +158,10 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #1EAEDB; }
+  color: #1EAEDB;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
 a:hover {
   color: #0FA0CE; }
 
@@ -302,7 +305,9 @@ ol ul {
   font-size: 90%; }
 li {
   margin-bottom: 1rem; }
-
+ul.no-style {
+  list-style: none;
+}
 
 /* Code
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
