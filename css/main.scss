@@ -40,9 +40,4 @@
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        // "../_sass/base.scss",
-        // "../_sass/layout.scss",
-        "../_sass/theme/scss/style.scss"
-        // "../_sass/syntax-highlighting.scss"
-;
+@import  "../_sass/theme/scss/style.scss";
