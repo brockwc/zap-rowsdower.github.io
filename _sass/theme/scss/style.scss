@@ -1,24 +1,24 @@
-/* 
-	Built with Origin by Dave J. Fox
+/*
+	Built with a modified version of Origin by Dave J. Fox
 	Twitter: 	@davejfox
 	Github: 	davejfox
 
-	Free to use, if you make something cool show me! 
+	Free to use, if you make something cool show me!
+
+	Built with Skeleton
 */
 
 // BASE STYLES
 // ---------------------------------------------------------
 @import "base/_variables.scss";
+@import "base/_skeleton.scss";
 @import "base/_mixins.scss";
-@import "base/_reset.scss";
+@import "base/_normalize.scss";
 @import "base/_typography.scss";
-@import "base/_grid.scss";
 @import "base/_common.scss";
-@import "base/_forms.scss";
-@import "base/_tables.scss";
+// @import "base/_syntax-highlighting.scss";
 
-
-// VENDOR 
+// VENDOR
 // ---------------------------------------------------------
 @import url(https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700);
 @import url(https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700);
