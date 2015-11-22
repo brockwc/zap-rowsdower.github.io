@@ -1,5 +1,3 @@
-@include font("caslongrad", caslongrad);
-
 //----------------------------------------------------------------
 //  Titles
 //----------------------------------------------------------------
@@ -16,8 +14,7 @@ h1, h2, h3, h4, h5, h6,
 
 h1,
 .alpha {
-    font-family: "caslongrad", serif;
-    font-size: 50px;
+    font-family: 'PT Sans Narrow', sans-serif;
 }
 
 h2,
