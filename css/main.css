@@ -239,7 +239,7 @@ p { margin-top: 0; }
 
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-a { color: #1EAEDB; }
+a { color: #1EAEDB; text-decoration: none; transition: color 0.3s ease; }
 
 a:hover { color: #0FA0CE; }
 
@@ -283,6 +283,8 @@ ol, ul { padding-left: 0; margin-top: 0; }
 ul ul, ul ol, ol ol, ol ul { margin: 1.5rem 0 1.5rem 3rem; font-size: 90%; }
 
 li { margin-bottom: 1rem; }
+
+ul.no-style { list-style: none; }
 
 /* Code
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -412,11 +414,11 @@ iframe, object, embed { max-width: 100%; }
 
 [class*="border-black"] { border-color: #000; }
 
-.site-header { padding-top: 60px; }
+.site-header { padding-top: 100px; text-align: center; }
 .site-header .menu-icon { display: none; }
 .site-header h1 a { transition: opacity 0.3s ease; opacity: 1; color: #000; }
 .site-header h1 a:hover { opacity: 0.7; }
-.site-header .logo-wrap { border-top: 1px solid #000; border-bottom: 1px solid #000; padding: 10px 0; margin-bottom: 30px; }
+.site-header .logo-wrap { border-top: 1px solid #000; border-bottom: 1px solid #000; padding: 10px 0 5px; margin-bottom: 30px; }
 .site-header .icon { display: inline-block; margin-right: 15px; width: 30px; }
 
 /*# sourceMappingURL=main.css.map */
