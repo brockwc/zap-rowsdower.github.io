@@ -26,11 +26,11 @@
 
 	@font-face {
 		font-family: $fontName;
-		src: url("../_sass/theme/fonts/" + $fontLongname + "/" + $fontLongname + ".eot");
-		src: url("../_sass/theme/fonts/" + $fontLongname + "/" + $fontLongname + ".eot?#iefix") format("embedded-opentype"),
-			 url("../_sass/theme/fonts/" + $fontLongname + "/" + $fontLongname + ".woff") format("woff"),
-			 url("../_sass/theme/fonts/" + $fontLongname + "/" + $fontLongname + ".ttf") format("truetype"),
-			 url("../_sass/theme/fonts/" + $fontLongname + "/" + $fontLongname + ".svg#" + $fontName + "") format("svg");
+		src: url("zap-rowsdower.github.io/_sass/theme/fonts/" + $fontLongname + "/" + $fontLongname + ".eot");
+		src: url("zap-rowsdower.github.io/_sass/theme/fonts/" + $fontLongname + "/" + $fontLongname + ".eot?#iefix") format("embedded-opentype"),
+			 url("zap-rowsdower.github.io/_sass/theme/fonts/" + $fontLongname + "/" + $fontLongname + ".woff") format("woff"),
+			 url("zap-rowsdower.github.io/_sass/theme/fonts/" + $fontLongname + "/" + $fontLongname + ".ttf") format("truetype"),
+			 url("zap-rowsdower.github.io/_sass/theme/fonts/" + $fontLongname + "/" + $fontLongname + ".svg#" + $fontName + "") format("svg");
 	}
 }
 
